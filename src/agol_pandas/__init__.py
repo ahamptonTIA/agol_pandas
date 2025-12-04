@@ -3,7 +3,6 @@ import pandas as pd
 import tempfile
 from arcgis.gis import GIS
 
-
 def get_temp_file(suffix: str = ".csv"):
     """
     Returns a path to a temporary file in the default temp directory.
